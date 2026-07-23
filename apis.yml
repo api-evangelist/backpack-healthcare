@@ -1,9 +1,28 @@
 aid: backpack-healthcare
 name: Backpack Healthcare
-description: Backpack Healthcare is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Backpack Healthcare is a virtual (telehealth) pediatric and family mental
+  health provider delivering therapy, psychiatry, and medication management for children,
+  tweens, teens, young adults, and adults. It offers age-based care (Littles 4-10,
+  Tweens & Teens 11-17, Young Adults 18+, and Adults) across concerns including ADHD,
+  anxiety, autism spectrum disorder, depression, OCD, maternal mental health, and substance
+  use, alongside a consumer Self Care / Care Companion mobile app. Backpack partners
+  with health plans, schools, health systems, and community and government agencies
+  to expand access to youth behavioral health, and is a Techstars portfolio company.
+  It currently exposes no public developer API surface.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69e3468d53775d6def2d8d26/6a46814929e14ecee3bc962f_Backpack%20Healthcare.png
 url: https://raw.githubusercontent.com/api-evangelist/backpack-healthcare/refs/heads/main/apis.yml
+humanURL: https://www.hellobackpack.com/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Mental Health
+- Telehealth
+- Pediatrics
+- Behavioral Health
+- Digital Health
+- Therapy
+- Psychiatry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +49,34 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/backpack-healthcare-domain-security.yml
 - type: Website
-  url: https://youmehealthcare.com/
+  url: https://www.hellobackpack.com/
+- type: About
+  url: https://www.hellobackpack.com/about
+- type: Blog
+  url: https://www.hellobackpack.com/blog
+- type: Support
+  url: https://www.hellobackpack.com/contact-us
+- type: FAQ
+  url: https://www.hellobackpack.com/faq
+- type: Pricing
+  url: https://www.hellobackpack.com/insurance-fees
+- type: Careers
+  url: https://www.hellobackpack.com/careers
+- type: Login
+  url: https://www.carecompanion.hellobackpack.com/auth/login
+- type: TermsOfService
+  url: https://www.hellobackpack.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.hellobackpack.com/privacy-policy
+- type: MobileApp
+  url: https://apps.apple.com/us/app/backpack-care-companion/id6608968770
+- type: MobileApp
+  url: https://play.google.com/store/apps/details?id=com.backpack.app
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

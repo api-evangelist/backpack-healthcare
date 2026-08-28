@@ -9,6 +9,17 @@ description: Backpack Healthcare is a virtual (telehealth) pediatric and family 
   with health plans, schools, health systems, and community and government agencies
   to expand access to youth behavioral health, and is a Techstars portfolio company.
   It currently exposes no public developer API surface.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
